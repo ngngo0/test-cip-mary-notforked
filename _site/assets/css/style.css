@@ -323,6 +323,6 @@ a:hover { text-decoration: underline; }
 .site-footer-credits { color: #819198; }
 
 nav ul { margin: 0; display: flex; justify-content: end; list-style-type: none; }
-nav ul li { margin-right: 2rem; }
-nav ul li a { text-decoration: none; color: white; font-size: x-large; font-weight: bold; }
-nav ul li a:hover { text-decoration: underline; border: solid white; }
+nav ul li { margin-right: 1rem; }
+nav ul li a { text-decoration: none; border: solid 5px transparent; color: white; font-size: x-large; font-weight: bold; border-radius: 1rem; padding: 0.5rem 0.5rem; }
+nav ul li a:hover { text-decoration: none; border: solid white 5px; }
