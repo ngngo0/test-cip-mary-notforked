@@ -3,6 +3,24 @@
 
 @import "{{ site.theme }}";
 
+header{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  #cip-logo {
+    height: 5rem !important;
+    width: 30rem !important;
+  }
+}
+
+.page-header { 
+  color: #fff; text-align: center; 
+  background-color: #0d0a0b; 
+  background-color: #44b09e; 
+  background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
+  padding: 2rem 4rem !important;
+  
+};
 nav {
    ul{
       margin: 0;
@@ -28,3 +46,4 @@ nav {
       }
     }
   }
+@media screen and (min-width: 64em) { .page-header { padding: 3rem 4rem; } }
