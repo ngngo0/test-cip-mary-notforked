@@ -2,7 +2,7 @@
 title: SCC20 is Going Virtual
 layout: posts
 date:   2015-01-20 09:49:00
-tag-name: CIML ML Best-Practices NSF
+tags: CIML ML Best-Practices NSF
 
 ---
 

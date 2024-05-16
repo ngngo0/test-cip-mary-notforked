@@ -1,5 +1,5 @@
 ---
 layout: tags
-tag-name: CIML
+tags: CIML
 permalink: /tags/CIML
 ---
