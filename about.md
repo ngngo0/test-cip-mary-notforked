@@ -9,11 +9,11 @@ permalink: /about/
       {% for member in site.team_members %}
         <li class="team_card">
             <h3>
-                <a href="{{ member.url }}"> 
+                <a href="{{ site.url }}{{ site.baseurl }}{{ member.url }}"> 
                     {{member.name}} 
                 </a>
             </h3>
-            <img src="{{member.picture}}">
+            <img src="{{ site.url }}{{ site.baseurl }}{{member.picture}}">
             <p> {{member.content | strip_html | truncate: 100}} </p>
         </li>
       {% endfor %}

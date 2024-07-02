@@ -9,7 +9,7 @@ layout: default
             {% for post in site.posts %}
               <li>
                 <article>
-                  <a href="{{ post.url }}">
+                  <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
                     <h3>{{ post.title }}</h3>    
                   </a>
                   <time class="blogdate"> {{ post.date | date: "%d %B %Y" }} </time>

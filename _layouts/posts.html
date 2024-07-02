@@ -12,7 +12,7 @@ layout: default
     [&nbsp;
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a class="no-underline" href="/tags/{{ tag_name | replace: ' ', '_' }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+      <a class="no-underline" href="{{ site.url }}{{ site.baseurl }}/tags/{{ tag_name | replace: ' ', '_' }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
     {% endfor %}
     ]
   </span>
@@ -30,7 +30,7 @@ layout: default
         <li>
         {% endif %}
           <h3>
-            <a href="{{ post.url }}">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
               <small>{{ post.date | date_to_string }}</small>
             </a>
