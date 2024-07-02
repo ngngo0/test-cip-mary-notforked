@@ -1,4 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
+# website: https://ngngo0.github.io by default rn.
+basewebsite: /test-cip-mary-notforked # need this because the url is https://ngngo0.github.io/nameoftherepo
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 

@@ -10,3 +10,4 @@
 Learning:
 - xml is similarly used as json, they have the same/similar role. 
 - feed and tags was created to create a tags/categories system. (https://www.untangled.dev/2020/06/02/tag-management-jekyll/)
+- url things--> There's a difference between url and baseurl(the repo name). {{ site.url }}{{ site.baseurl }}
