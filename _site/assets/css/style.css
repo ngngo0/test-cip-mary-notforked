@@ -336,3 +336,5 @@ nav ul li a:hover { text-decoration: none; border: solid white 4px; }
 .team_card_list li { border-radius: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; border: solid green 3px; width: 16rem; padding: 1rem; margin: 0.5rem !important; }
 .team_card_list li img { height: 10rem; }
 .team_card_list li:hover { transform: scale(1.05, 1.05); }
+
+.entries { list-style-type: none; padding: 0; border: solid green 3px; border-radius: 20px; padding: 2rem; }
