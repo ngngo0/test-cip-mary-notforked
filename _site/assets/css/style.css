@@ -323,13 +323,14 @@ a:hover { text-decoration: underline; }
 .site-footer-credits { color: #819198; }
 
 header { justify-content: space-between; align-items: center; display: flex; }
-header #link-logo { display: inline-block; width: 30rem; aspect-ratio: 6 / 1; background-size: cover; background-repeat: no-repeat; border: none; background-color: transparent; background-image: url("../css/images/cip_logo.webp"); }
+header #link-logo { display: inline-block; width: 30rem; border: none; background-color: transparent; }
 
-.page-header { color: #fff; text-align: center; background-color: #0d0a0b; background-color: #44b09e; background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); padding: 2rem 4rem !important; }
+header { color: #fff; text-align: center; background-color: #0d0a0b; background-color: #44b09e; background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); padding: 2rem 4rem !important; }
 
 nav ul { margin: 0; display: flex; justify-content: end; list-style-type: none; }
 nav ul li { margin-right: 1rem; }
-nav ul li a { text-decoration: none; border: solid 5px transparent; color: white; font-size: x-large; font-weight: bold; border-radius: 1rem; padding: 0.5rem 0.5rem; }
-nav ul li a:hover { text-decoration: none; border: solid white 5px; }
+nav ul li a { text-decoration: none; border: solid transparent 4px; color: white; font-size: x-large; font-weight: bold; border-radius: 1rem; padding: 0.5rem 0.5rem; }
+nav ul li a:hover { text-decoration: none; border: solid white 4px; }
 
-@media screen and (min-width: 64em) { .page-header { padding: 3rem 4rem; } }
+@media screen and (min-width: 64em) { header { padding: 3rem 4rem; } }
+@media screen and (max-width: 1089px) { header { justify-content: center; flex-wrap: wrap !important; gap: 0.5rem; } }
