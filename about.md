@@ -13,7 +13,7 @@ permalink: /about/
                     {{member.name}} 
                 </a>
             </h3>
-            <img src="{{ site.url }}{{ site.baseurl }}{{member.picture}}">
+            <img src="{{ site.url }}{{ site.baseurl }}{{member.picture}}" alt="member picture">
             <p> {{member.content | strip_html | truncate: 100}} </p>
         </li>
       {% endfor %}
