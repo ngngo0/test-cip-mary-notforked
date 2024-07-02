@@ -1,0 +1,12 @@
+---
+layout: default
+--- 
+
+{% if page.lang %}
+<div lang="{{page.lang}}">
+{% else %}
+<div>
+{% endif %}
+<h2>{{ page.name }}</h2>
+<img src="{{page.picture}}">
+            <p> {{page.content}} </p>

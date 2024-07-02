@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-header{
+header { 
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -13,9 +13,6 @@ header{
     border: none;
     background-color: transparent;
   }
-}
-
-header { 
   color: #fff; text-align: center; 
   background-color: #0d0a0b; 
   background-color: #44b09e; 
@@ -49,3 +46,28 @@ nav {
   }
 @media screen and (min-width: 64em) { header { padding: 3rem 4rem; } }
 @media screen and (max-width: 1089px) { header { justify-content: center; flex-wrap: wrap !important; gap:0.5rem;} }
+
+.team_card_list{
+  padding:0;
+  display: flex;
+  list-style-type:none;
+  flex-wrap:wrap;
+
+  li{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid green 3px;
+    width: 16rem;
+    padding: 1rem;
+    margin: 0.5rem !important;
+    img{
+      height:10rem;
+    }
+  }
+  li:hover {
+    transform: scale(1.05,1.05);
+  }
+}
